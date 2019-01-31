@@ -2,10 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dc24b50-b85c-4d9a-b470-5a6b4d07d986" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bin/symfony_requirements" beforeDir="false" afterPath="$PROJECT_DIR$/bin/symfony_requirements" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/SymfonyRequirements.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/SymfonyRequirements.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.php_cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scrutinizer.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AppCache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/_pagination.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/dashboard.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/stats.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config_dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config_prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config_test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/rabbit_vhost.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing_dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/services.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/services_test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/Version20170222055642.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/Version20170329095349.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/Version20180827105910.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/console" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/symfony_requirements" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/supervisor.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpstan.neon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Command/SyncStarredReposCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Command/SyncVersionsCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Consumer/SyncStarredRepos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Consumer/SyncVersions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/LoadRepoData.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/LoadStarData.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/LoadUserData.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/LoadVersionData.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Repo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Star.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Version.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Github/ClientDiscovery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Github/RateLimitTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/PubSubHubbub/Publisher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/RepoRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/StarRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/UserRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/VersionRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Rss/Generator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Security/GithubAuthenticator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Twig/RepoVersionExtension.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Webfeeds/Webfeeds.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Webfeeds/WebfeedsWriter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AppBundle/Command/SyncStarredReposCommandTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AppBundle/Command/SyncVersionsCommandTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AppBundle/Consumer/SyncStarredReposTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AppBundle/Consumer/SyncVersionsTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AppBundle/Github/ClientDiscoveryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AppBundle/PubSubHubbub/PublisherTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AppBundle/Rss/GeneratorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AppBundle/Security/GithubAuthenticatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AppBundle/Twig/RepoVersionExtensionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AppBundle/Webfeeds/WebfeedsTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AppBundle/Webfeeds/WebfeedsWriterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/SymfonyRequirements.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/logs/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app_dev.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/banditore.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/megaphone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/productivity.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/touch-icon-ipad-retina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/touch-icon-ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/touch-icon-iphone-retina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/touch-icon-iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/banditore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/robots.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,16 +185,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548944907757</updated>
-      <workItem from="1548944908988" duration="1732000" />
+      <workItem from="1548944908988" duration="1973000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1732000" />
+    <option name="totallyTimeSpent" value="1973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
